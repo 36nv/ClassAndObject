@@ -1,4 +1,5 @@
-import '../camriClass.dart';
+import 'calcolet.dart';
+import 'camriClass.dart';
 
 class Person {
   int? id;
@@ -53,4 +54,11 @@ void main() {
   c2.prise = 1500;
   c2.reselt();
   ischeep(c2);
+  print("------------line--------------------");
+  AgeCol age1 = AgeCol();
+  age1.a = 5;
+  age1.b = 48;
+  age1.c = 31;
+  double s1 = age1.callolet();
+  print("this is ege is $s1");
 }
