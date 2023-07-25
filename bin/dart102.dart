@@ -1,5 +1,6 @@
 import 'calcolet.dart';
 import 'camriClass.dart';
+import 'ConstructorAnimal.dart';
 
 class Person {
   int? id;
@@ -61,4 +62,9 @@ void main() {
   age1.c = 31;
   double s1 = age1.callolet();
   print("this is ege is $s1");
+
+  print("------------line--------------------");
+  Animal animal1 = Animal("cat", 2);
+  print(animal1.name);
+  print(animal1.age);
 }
