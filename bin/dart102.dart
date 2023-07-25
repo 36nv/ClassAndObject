@@ -1,5 +1,5 @@
 import 'calcolet.dart';
-import 'camriClass.dart';
+import 'Camera.dart';
 import 'ConstructorAnimal.dart';
 
 class Person {
@@ -40,7 +40,7 @@ void main() {
     }
   }
 
-  Camri c1 = Camri();
+  Camera c1 = Camera();
   c1.id = 545445;
   c1.name = "Sony";
   c1.mp = 55;
@@ -48,7 +48,7 @@ void main() {
   c1.reselt();
   ischeep(c1);
   print("------------line--------------------");
-  Camri c2 = Camri();
+  Camera c2 = Camera();
   c2.id = 45554;
   c2.name = "Apple";
   c2.mp = 30;
